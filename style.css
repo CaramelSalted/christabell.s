@@ -1,19 +1,32 @@
-/*COLORS:
+/*
+COLORS:
 #9DEDF1 light-blue
 #00D3D7 mint
 #FEEBE4 light-peach
 #FFAA81 peach
-#052626 not-black*/
+#052626 not-black
+*/
 
-html,
-body {
-  height: 100%;
+/*
+id блоков:
+	#offer
+	#works
+	#benefits
+	#variable
+	#about
+	#faq
+	#footer
+*/
+
+#offer{
+	background: #00D3D7 url(img/bg.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh
 }
 
-.carousel,
-.carousel-inner,
-.carousel-inner .item,
-.carousel-inner img {
-  height: 60% !important;
-  width: 60% !important;
+#offer .container{
+	background: url(img/bg-avatar.png) no-repeat;
+	background-size: contain;
+	background-position: bottom;
+	height: 100vh
 }
