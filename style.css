@@ -5,33 +5,15 @@
 #FFAA81 peach
 #052626 not-black*/
 
-body, div, p, .screen{
-	margin: 0 auto;
-	padding: 0;
+html,
+body {
+  height: 100%;
 }
 
-.screen{
-	padding: 5% 10%;
-	height: 100vh;
-	background-color: #9DEDF1;
-}
-
-.screen:nth-child(2n){
-	background-color: #FEEBE4;
-}
-
-.screen-f{
-	height: auto;
-}
-
-.offer{
-	text-align: center;
-}
-
-.bg-avatar{
-	width: 80%;
-}
-
-.social img, .insta img{
-	width: 30px;
+.carousel,
+.carousel-inner,
+.carousel-inner .item,
+.carousel-inner img {
+  height: 60% !important;
+  width: 60% !important;
 }

@@ -3,126 +3,164 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	
+	<!-- Подключение Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Подключение собственных стилей -->
     <link rel="stylesheet" href="style.css">
 
     <title>Создание авторской маски от christabell.s</title>
 </head>
 <body>
-	<div class="screen screen-1" id="screen-1">
-		<div class="top-line-logo">christabell.s</div>
-		<div class="offer">
-			<h1>Создание авторской маски для инстаграм</h1>
-			<div class="adv-extra">Новое направление Instagram 2019 - маски для сторис</div>
-			<div class="proof"><ul>
+	<div class="container">
+		<div class="row">
+			<p class="nav-logo">
+				christabell.s
+			</p>
+		</div>
+		<div class="row">
+			<h1 class="offer-header">Создание авторской маски для инстаграм</h1>
+			<p class="offer-extra">Новое направление Instagram 2019 - маски для сторис</p>
+			<ul class="offer-list">
 				<li>Сделай свой профиль уникальным</li>
 				<li>Привлеки тысячи новых подписчиков</li>
 				<li>Добавь эксклюзивности в свой бизнес</li>
-			</ul></div>
-			<!-- Что сделать с картинкой? -->
-			<img src="img/bg-avatar.png" alt="" class="bg-avatar">
-			<button class="btn btn-1"><div class="text-btn">Заказать маску</div></button>
+			</ul>
+			<img src="img/bg-avatar.png" alt="..." style="max-height: 500px">
+			<!-- КАК БЛ*** ВСТАВИТЬ ЭТУ КАРТИНКУ??? -->
+			<button type="button" class="btn btn-light">Заказать маску</button>
 		</div>
 	</div>
-	<div class="screen screen-2" id="screen-2">
-		<div class="works">
-			<h2>Мои работы</h2>
-			<div class="text-short-dscr">
-				Мои маски посмотрели более 100 млн ползователей Инстаграм
+
+	<div class="container">
+		<div class="row">
+			<h2 class="works-header">Мои работы</h2>
+			<p class="works-extra">Мои маски посмотрели более 100 млн ползователей Инстаграм</p>
+		</div>
+		<div class="row">
+			<!-- Сделать слайдер -->
+			<div id="works-carousel" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/portfolio/1.jpg" class="d-block w-100 mh-80" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="img/portfolio/2.jpg" class="d-block w-100 mh-80" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="img/portfolio/3.jpg" class="d-block w-100 mh-80" alt="...">
+					</div>
+				</div>
 			</div>
-			<div class="slider-phone">
-				<!-- Сделать слайдер фотографий в телефоне, а пока...-->
-				<img src="img/works/1" alt="">
-			</div>
-			<button class="btn btn-2"><div class="text-btn">Оставить заявку</div></button>
+
+
+
+			<img src="img/works-temporary.jpg" alt="...">
+		</div>
+		<div class="row">
+			<button type="button" class="btn btn-light">Заказать маску</button>
 		</div>
 	</div>
-	<div class="screen screen-3" id="screen-3">
-		<div class="excellence">
-			<h2>Преимущества собственной маски</h2>
-			<div class="text-short-dscr">
-				Инстаграм маски - это новый и эффективный инструмент, который придает твоему блогу "Изюминку" и может привлечь сотни тысяч подписчиков!
-			</div>
-			<div class="text-short-dscr"><b>Увеличение охватов. </b>Добавляямаску в свой профиль, ты запускаешь бесплатную рекламу</div>
-			<div class="text-short-dscr">Каждая маска имеет право <b>попасть в ТОП, </b>что привлечёт в твой профиль новых подписчиков!</div>
-			<div class="text-short-dscr"><b>Уникальность контента. </b>Может привлечь и удержать внимание аудитории</div>
-			<button class="btn btn-1"><div class="text-btn">Заказать маску</div></button>
+
+	<div class="container">
+		<div class="row">
+			<h2 class="benefits-header">Премущества собственной маски</h2>
+			<p class="benefits-extra">Инстаграм маски - это новый и эффективный инструмент, который придает твоему блогу "Изюминку" и может привлечь сотни тысяч подписчиков!</p>
+			<ul class="benefits-list">
+				<li class="benefits-item"><b>Увеличение охватов. </b>Добавляямаску в свой профиль, ты запускаешь бесплатную рекламу</li>
+				<li class="benefits-item">Каждая маска имеет право <b>попасть в ТОП, </b>что привлечёт в твой профиль новых подписчиков!</li>
+				<li class="benefits-item"><b>Уникальность контента. </b>Может привлечь и удержать внимание аудитории</li>
+			</ul>
+			<button type="button" class="btn btn-light">Заказать маску</button>
 		</div>
 	</div>
-	<div class="screen screen-4" id="screen-4">
-		<div class="variable">
-			<h2>Какие маски я делаю?</h2>
-			<div class="options">
-				<ul>
-					<li>Ретушь лица</li>
-					<li>Деформация лица</li>
-					<li>Добавление 2D рисунков и надписей</li>
-					<li>Эффекты из глаз</li>
-					<li>Анимация в пространстве</li>
-					<li>Маска-фильтр (пресет)</li>
-					<li>Добавление 3D элементов</li>
-					<li>Анимация 3D элементов</li>
-				</ul>
-			</div>
+
+	<div class="container">
+		<div class="row">
+			<h2 class="variable-header">Какие маски я делаю?</h2>
 		</div>
-		<div class="form">
-			<h3>Стань обладателем эксклюзивной маски - просто оставь заявку ;)</h3>
-			<input type="text" placeholder="Имя">
-			<input type="text" placeholder="Instagram">
-			<input type="tel" placeholder="+7 (999) 123-45-67">
-			<button class="btn btn-2"><div class="text-btn">Заказать маску</div></button>
+		<div class="row">
+			<ul class="varible-list">
+				<li class="varible-item">Ретушь лица</li>
+				<li class="varible-item">Деформация лица</li>
+				<li class="varible-item">Добавление 2D рисунков и надписей</li>
+				<li class="varible-item">Эффекты из глаз</li>
+				<li class="varible-item">Анимация в пространстве</li>
+				<li class="varible-item">Маска-фильтр (пресет)</li>
+				<li class="varible-item">Добавление 3D элементов</li>
+				<li class="varible-item">Анимация 3D элементов</li>
+			</ul>
 		</div>
-	</div>
-	<div class="screen screen-5" id="screen-5">
-		<h2>Обо мне</h2>
-		<div class="text-short-dscr">
-			Меня зовут Кристина и я являюсь автором и создателем этого проекта. В июле 2019 года я получила статус разработчика Facebook и начала создавать AR маски и фильтры дя сторит. На данный момент количество просмотров моих масок достигло <b>более 100 000 000</b>
-		</div>
-		<div class="text-short-dscr">
-			Я создала десятки масок для своих клиентов и блогеров. Благодаря погружению в каждый проект и созданию маски "как для себя", я получила множество положительных отзывов и рекомендаций.
-		</div>
-	</div>
-	<div class="screen screen-6" id="screen-6">
-		<h2>Ответы на часто задаваемые вопросы</h2>
-		<div class="faq faq-1">
-			<div class="question">Сколько стоит создание собственной маски?</div>
-			<div class="answer">Для каждой мски стоимость индивидуальна. Она складывается из Ваших пожеланий, сложности и временных затрат. Как прваило цена стартует от 2000 рублей. Для получения точной стоимости, вы можете оставить заявку, я с вами свяжусь и мы обсудим детали.</div>
-		</div>
-		<div class="faq faq-2">
-			<div class="question">Как заказать маску?</div>
-			<div class="answer">Оставьте заявку на сайте или напишите в любой удобный мессенджер, указанный внизу страницы. Мы обсудим вашу идею, я пришлю реквезиты для оплаты. Кработе я приступаю после получения предоплаты в размере 50%, этот аванс закрепляет Ваше намерение заказать маску. Оставшуюся сумму вы оплачиваете после согласования эффека.</div>
-		</div>
-		<div class="faq faq-3">
-			<div class="question">Как происходит согласование?</div>
-			<div class="answer">После оплаты аванса я приступаю к созданию маски, на всех этапах, я отправляю вам тестовую ссылку, по которой вы сможете протестировать маску в камере Инстаграм на себе. Если есть правки, вы их озвучиваете, и я корректирую маску. P.S. Правки, которые влекут отклонение от вашего задания более чем на 30%, оплачиваются дополнительно, так как это влечёт за собой увеличение ранее оговоренного рабочего времени.</div>
-		</div>
-		<div class="faq faq-4">
-			<div class="question">Что входит в стоимость?</div>
-			<div class="answer">В стоимость входит разработка маски по вашему заданию, иконки эффекта и инструкция по загрузке.</div>
-		</div>
-		<div class="faq faq-5">
-			<div class="question">Как загрузить маску в Инстаграм?</div>
-			<div class="answer">При заказе маски <span class="uppercase">в подарок</span> вы получаете подробную видео-инструкцию по загрузке эффекта в Инстаграм, а так же мое сопровождение при возникновении вопросов. Эта процедура занимает не более 10 минут. Сроки рассмотрения маски в среднем сосавляют 7 рабочих днй. Для загрузки маски ваш Инстаграм должен быть приивязан к странице Facebook.</div>
-		</div>
-		<div class="faq faq-6">
-			<div class="question">Что нужно для закаказа?</div>
-			<div class="answer">Смотрите <b>"Как заказать маску?"</b>. Вы должны описать вашу идею и задание, максимально четко и подробн, приветствуются наброски, фото и видео. Видя вашу идею, я помогу советом в дизайне и подскажу, как это будет работать технически и как лучше сделать.</div>
-		</div>
-		<div class="faq faq-7">
-			<div class="question">Если я не знаю, какую маску я хочу?</div>
-			<div class="answer">Я не кладезь идей и залезть в голову к вам возможности не имею. Поэтому на начальном этапе максимально подробно опишите, какой эффект вы хотите. А уже совместными усилиями мы создадимидеальную маску для вас!</div>
+		<div class="row">
+			<p class="form-extra">Стань обладателем эксклюзивной маски - просто оставь заявку ;)</p>
+			<form action="">
+				<div class="form-group">
+					<label for="name">Имя</label>
+					<input type="text" class="form-control" id="name" placeholder="Введите ваше имя">
+				</div>
+				<div class="form-group">
+					<label for="inst">Instagram</label>
+					<input type="text" class="form-control" id="inst" placeholder="Введите ваш ник">
+				</div>
+				<div class="form-group">
+					<label for="tel">Телефон</label>
+					<input type="tel" class="form-control" id="tel" placeholder="Введите ваш номер телефона">
+				</div>
+				<button type="submit" class="btn btn-light"> Заказать маску</button>
+			</form>
 		</div>
 	</div>
-	<footer class="screen screen-f">
-	 	<div class="insta">
-	 		<img src="img/icon-insta.png" alt="">
-	 		<p>christabell.s</p>
-	 	</div>
-	 	<div class="social">
-	 		<p>Я в мессенджерах</p>
+
+	<div class="container">
+		<div class="row">
+			<h2 class="about-header">
+				Обо мне
+			</h2>
+			<p class="about-extra">
+				Меня зовут Кристина и я являюсь автором и создателем этого проекта. В июле 2019 года я получила статус разработчика Facebook и начала создавать AR маски и фильтры дя сторит. На данный момент количество просмотров моих масок достигло <b>более 100 000 000</b></p>
+			<p class="about-extra">
+				Я создала десятки масок для своих клиентов и блогеров. Благодаря погружению в каждый проект и созданию маски "как для себя", я получила множество положительных отзывов и рекомендаций.
+			</p>
+			<!-- Сюда в идеале инсту вставить -->
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<button class="btn btn-link" data-toggle="collapse" data-target="#faq1">Сколько стоит создание собственной маски?</button>
+			<div class="collapse" id="faq1">Для каждой маски стоимость индивидуальна. Она складывается из Ваших пожеланий, сложности и временных затрат. Как прваило цена стартует от 2000 рублей. Для получения точной стоимости, вы можете оставить заявку, я с вами свяжусь и мы обсудим детали.</div>
+
+			<button class="btn btn-link" data-toggle="collapse" data-target="#faq2">Как заказать маску?</button>
+			<div class="collapse" id="faq2">Оставьте заявку на сайте или напишите в любой удобный мессенджер, указанный внизу страницы. Мы обсудим вашу идею, я пришлю реквезиты для оплаты. Кработе я приступаю после получения предоплаты в размере 50%, этот аванс закрепляет Ваше намерение заказать маску. Оставшуюся сумму вы оплачиваете после согласования эффека.</div>
+
+			<button class="btn btn-link" data-toggle="collapse" data-target="#faq3">Как происходит согласование?</button>
+			<div class="collapse" id="faq3">После оплаты аванса я приступаю к созданию маски, на всех этапах, я отправляю вам тестовую ссылку, по которой вы сможете протестировать маску в камере Инстаграм на себе. Если есть правки, вы их озвучиваете, и я корректирую маску. P.S. Правки, которые влекут отклонение от вашего задания более чем на 30%, оплачиваются дополнительно, так как это влечёт за собой увеличение ранее оговоренного рабочего времени.</div>
+
+			<button class="btn btn-link" data-toggle="collapse" data-target="#faq4">Что входит в стоимость?</button>
+			<div class="collapse" id="faq4">В стоимость входит разработка маски по вашему заданию, иконки эффекта и инструкция по загрузке.</div>
+
+			<button class="btn btn-link" data-toggle="collapse" data-target="#faq5">Как загрузить маску в Инстаграм?</button>
+			<div class="collapse" id="faq5">При заказе маски в подарок вы получаете подробную видео-инструкцию по загрузке эффекта в Инстаграм, а так же мое сопровождение при возникновении вопросов. Эта процедура занимает не более 10 минут. Сроки рассмотрения маски в среднем сосавляют 7 рабочих днй. Для загрузки маски ваш Инстаграм должен быть приивязан к странице Facebook.</div>
+
+			<button class="btn btn-link" data-toggle="collapse" data-target="#faq6">Что нужно для закаказа?</button>
+			<div class="collapse" id="faq6">Смотрите <b>"Как заказать маску?"</b>. Вы должны описать вашу идею и задание, максимально четко и подробн, приветствуются наброски, фото и видео. Видя вашу идею, я помогу советом в дизайне и подскажу, как это будет работать технически и как лучше сделать.</div>
+
+			<button class="btn btn-link" data-toggle="collapse" data-target="#faq7">Если я не знаю, какую маску я хочу?</button>
+			<div class="collapse" id="faq7">Я не кладезь идей и залезть в голову к вам возможности не имею. Поэтому на начальном этапе максимально подробно опишите, какой эффект вы хотите. А уже совместными усилиями мы создадимидеальную маску для вас!</div>
+		</div>
+	</div>
+
+<!-- 	<footer class="container">
+		<div class="row">
+			<p>Я в мессенджерах</p>
 	 		<img src="img/icon-whats.png" alt="">
 	 		<img src="img/icon-tlg.png" alt="">
-	 	</div>
-	</footer>
+		</div>
+	</footer> -->
+
+	<!-- Скрипты -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
