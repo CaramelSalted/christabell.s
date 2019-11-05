@@ -19,13 +19,13 @@ id блоков:
 */
 
 #offer{
-	background: #00D3D7 url(img/bg.jpg) no-repeat;
+	background: #00D3D7 url(/img/bg.jpg) no-repeat;
 	background-size: cover;
 	height: 100vh
 }
 
 #offer .container{
-	background: url(img/bg-avatar.png) no-repeat;
+	background: url(/img/bg-avatar.png) no-repeat;
 	background-size: contain;
 	background-position: bottom;
 	height: 100vh
