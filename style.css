@@ -18,8 +18,31 @@ id блоков:
 	#footer
 */
 
+/*Общие настройки страницы и элементов
+(кнопки, фон и тп)*/
+
+body{
+	color: #052626;
+}
+
+ul{
+	list-style: none;
+}
+
+.btn-white {
+    color: #00D3D7;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-peach {
+    color: #fff;
+    background-color: #FFAA81;
+    border-color: #FFAA81;
+}
+
 #offer{
-	background: #00D3D7 url('img/bg.jpg') no-repeat;
+	background: #9DEDF1 url('img/bg.jpg') no-repeat top;
 	background-size: cover;
 	height: 100vh;
 }
@@ -30,3 +53,27 @@ id блоков:
 	background-position: bottom;
 	height: 100vh;
 }
+
+#works, #variable, #faq{
+	background-color: #FEEBE4;
+}
+
+#works h2, #variable h2, #faq h2{
+	color: #FFAA81;
+/*	background-image: url('img/bg-header_brush.png') no-repeat;
+	background-size: contain;
+	min-height: 50px;*/
+}
+
+#benefits, #about, #footer{
+	background-color: #9DEDF1;
+}
+
+#offer h1, #benefits h2, #about h2, #footer h2{
+	color: #00D3D7;
+/*	background: url('img/bg-header_brush.png') no-repeat;
+	background-size: contain;
+	min-height: 100px;*/
+}
+
+/*Более детальные настройки блоков*/
