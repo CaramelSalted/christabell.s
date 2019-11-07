@@ -54,6 +54,10 @@ ul{
 	height: 100vh;
 }
 
+#offer .container .row .row{
+	height: 100vh;
+}
+
 #works, #variable, #faq{
 	background-color: #FEEBE4;
 }
@@ -87,6 +91,17 @@ ul{
 	padding-top: 30px;
 	padding-bottom: 50px;
 }
+
+#offer .offer{
+	height: 100%;
+}
+
+/*#offer button{
+	position: absolute;
+	top: 80%;
+}*/
+
+
 
 
 
