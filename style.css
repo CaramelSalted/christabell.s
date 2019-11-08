@@ -21,8 +21,36 @@ id блоков:
 /*Общие настройки страницы и элементов
 (кнопки, фон и тп)*/
 
+/*Размеры шрифтов*/
+h1{
+	font-size: 2.5rem;
+}
+
+@media (max-width: 800px){
+	h1{
+	font-size: 1.7rem;
+	}
+}
+
+h2{
+	font-size: 2rem;
+}
+
+@media (max-width: 800px){
+	h2{
+	font-size: 1.5rem;
+	}
+}
+
 body{
 	color: #052626;
+	font-size: 1.3rem;
+}
+
+@media (max-width: 800px){
+	body{
+	font-size: 1rem;
+	}
 }
 
 ul{
@@ -35,16 +63,23 @@ ul{
     border-color: #fff;
 }
 
+.btn-white a{
+	color: #00D3D7;
+}
+
 .btn-peach {
     color: #fff;
     background-color: #FFAA81;
     border-color: #FFAA81;
 }
 
-#offer{
+.btn-peach{
+	color: #fff;
+}
+
+#offer, #about{
 	background: #9DEDF1 url('img/bg.jpg') no-repeat top;
 	background-size: cover;
-	height: 100vh;
 }
 
 #offer .container{
@@ -64,19 +99,26 @@ ul{
 
 #works h2, #variable h2, #faq h2{
 	color: #FFAA81;
+	/*font-size: 18px;*/
 }
 
 #benefits, #about, #footer{
 	background-color: #9DEDF1;
 }
 
-#offer h1, #benefits h2, #about h2, #footer h2{
+#benefits h2, #about h2, #footer h2{
 	color: #00D3D7;
+	/*font-size: 18px;*/
+}
+
+#offer h1{
+	color: #00D3D7;
+	/*font-size: 24px;*/
 }
 
 .offer-extra, .form-extra{
 	color: #FFAA81;
-	font-size: 18px;
+	/*font-size: 18px;*/
 }
 
 /*Более детальные настройки блоков*/
@@ -84,7 +126,7 @@ ul{
 .offer-header{
 	background: url('img/bg-header_brush.png') no-repeat center;
 	background-size: 100% 100%;
-	padding: 20px 30px 30px 50px;
+	padding: 20px 50px 30px 50px;
 	display: inline-block;
 /*	width: 100%;
 	height: 100%;*/
@@ -93,7 +135,7 @@ ul{
 .works-header, .benefits-header, .variable-header, .about-header, .faq-header{
 	background: url('img/bg-header_brush.png') no-repeat center;
 	background-size: 100% 100%;
-	padding: 20px 30px 30px 50px;
+	padding: 20px 50px 30px 50px;
 	display: inline-block;
 }
 
@@ -123,13 +165,25 @@ ul{
 
 }
 
-#variable .variable-item:after{
+/*#variable .variable-item:after{
 	content: "";
 	display: block;
 	height: 2px;
 	background-color: #00D3D7;
 	width: 25px;
 	margin: 0 auto;
+}*/
+
+#variable .variable-line{
+	height: 2px;
+/*	display: block;*/
+	background-color: #00D3D7;
+	width: 25px;
+	margin: 0.5rem auto;
+}
+
+#variable  ul{ 
+	padding-inline-start: 0; 
 }
 
 #faq .faq-item, #faq button{
