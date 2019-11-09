@@ -24,27 +24,31 @@ id блоков:
 /*Размеры шрифтов*/
 h1{
 	font-size: 2.5rem;
+	font-weight: 400;
 }
 
 @media (max-width: 800px){
 	h1{
-	font-size: 1.7rem;
+	font-size: 2rem;
 	}
 }
 
 h2{
-	font-size: 2rem;
+	font-size: 2.1rem;
+	font-weight: 600;
 }
 
 @media (max-width: 800px){
 	h2{
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	}
 }
 
 body, a{
 	color: #052626;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
 }
 
 @media (max-width: 800px){
@@ -58,23 +62,50 @@ ul{
 	padding-inline-start: 0;
 }
 
+.btn{
+	padding: .4rem 1rem;
+	border-radius: 1.5rem;
+}
+
+.btn a{
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.075em;
+}
+
+.btn a:hover{
+	text-decoration: none;
+}
+
 .btn-white {
     color: #00D3D7;
     background-color: #fff;
     border-color: #fff;
 }
 
+.btn-white:hover{
+    color: #00D3D7;
+    background-color: #f9f9f9;
+    border-color: #f9f9f9;
+}
+
 .btn-white a{
 	color: #00D3D7;
 }
 
-.btn-peach {
+.btn-peach{
     color: #fff;
     background-color: #FFAA81;
     border-color: #FFAA81;
 }
 
-.btn-peach{
+.btn-peach:hover{
+	color: #fff;
+	background-color: #FFBA99;
+	border-color: #FFBA99;
+}
+
+.btn-peach a{
 	color: #fff;
 }
 
@@ -125,8 +156,11 @@ ul{
 
 .offer-extra, .form-extra{
 	color: #FFAA81;
-	/*font-size: 18px;*/
+	font-weight: 500;
 }
+
+
+
 
 /*Более детальные настройки блоков*/
 
@@ -154,6 +188,12 @@ ul{
 	position: absolute;
 	top: 80%;
 }*/
+
+#offer .offer-item-line{
+	color: #FFAA81;
+	display: none;
+}
+
 
 #works .bg-phone{
 	background: url('img/bg-phone.png') no-repeat center;
@@ -198,19 +238,39 @@ ul{
 
 
 #variable .variable-line{
-	height: 2px;
-/*	display: block;*/
+	height: 0px;
 	background-color: #00D3D7;
+	border: 1px solid #00D3D7;
 	width: 25px;
 	margin: 0.5rem auto;
+	border-radius: 2px;
 }
+
+#form .btn{
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+
+@media (max-width: 800px){
+	#form .btn{
+		font-size: 1rem;
+	}
+}
+
 
 #faq .faq-item, #faq button{
 	display: block;
 	color: #052626;
 }
 
-#faq 
+#faq .faq-items-line{
+	height: 0px;
+	background-color: #00D3D7;
+	border: 1px solid #00D3D7;
+	width: 100%;
+	margin: 0.5rem auto;
+	border-radius: 2px;
+}
 
 
 
