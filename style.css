@@ -29,7 +29,7 @@ h1{
 
 @media (max-width: 800px){
 	h1{
-	font-size: 2rem;
+	font-size: 1.8rem;
 	}
 }
 
@@ -40,7 +40,7 @@ h2{
 
 @media (max-width: 800px){
 	h2{
-	font-size: 1.7rem;
+	font-size: 1.6rem;
 	}
 }
 
@@ -70,7 +70,7 @@ ul{
 .btn a{
 	font-weight: 500;
 	text-transform: uppercase;
-	letter-spacing: 0.075em;
+	letter-spacing: 0.05em;
 }
 
 .btn a:hover{
@@ -131,7 +131,7 @@ ul{
 	height: 100vh;
 }
 
-#works, #variable, #faq{
+#works, #variable, #faq, footer{
 	background-color: #FEEBE4;
 }
 
@@ -140,7 +140,7 @@ ul{
 	/*font-size: 18px;*/
 }
 
-#benefits, #about, #footer{
+#benefits, #about{
 	background-color: #9DEDF1;
 }
 
@@ -184,10 +184,10 @@ ul{
 	height: 100%;
 }
 
-/*#offer button{
-	position: absolute;
-	top: 80%;
-}*/
+#offer a:hover{
+	color: #00D3D7;
+	text-decoration: none;
+}
 
 #offer .offer-item-line{
 	color: #FFAA81;
@@ -249,6 +249,7 @@ ul{
 #form .btn{
 	text-transform: uppercase;
 	font-size: 1.2rem;
+	letter-spacing: 0.05em;
 }
 
 @media (max-width: 800px){
@@ -257,6 +258,26 @@ ul{
 	}
 }
 
+#form label{
+	display: none;
+}
+
+#form .form-input{
+	background-color: #fff;
+	border-radius: 1.5rem;
+	border-color: #fff;
+	padding: .4rem 1rem;
+}
+
+#about .about-instagram a:hover {
+	color: #00D3D7;
+	text-decoration: none;
+}
+
+#about .about-instagram img{
+	height: 26px;
+	width: 26px; 
+}
 
 #faq .faq-item, #faq button{
 	display: block;
@@ -267,13 +288,50 @@ ul{
 	height: 0px;
 	background-color: #00D3D7;
 	border: 1px solid #00D3D7;
-	width: 100%;
+	width: 30%;
 	margin: 0.5rem auto;
 	border-radius: 2px;
 }
 
+@media (max-width: 460px){
+	#faq .faq-items-line{
+		width: 100%;
+	}
+}
 
+#faq button{
+	padding-left: 0;
+	font-size: 1.2rem;
+	display: inline-block;
+}
 
+@media (max-width: 800px){
+	#faq button{
+		font-size: 1rem;
+	}
+}
+
+footer{
+	margin:0;
+}
+
+#footer{
+	background: url('img/bg-header_brush.png') no-repeat center top;
+	background-size: 100% 150%;
+}
+/*
+#footer p{
+	margin-top:  
+}
+*/
+#footer img{
+	height: 30px;
+	width: 30px; 
+}
+
+.short-text{
+	display: none;
+}
 
 
 
