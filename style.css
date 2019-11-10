@@ -110,12 +110,12 @@ ul{
 }
 
 #offer, #about{
-	background: #9DEDF1 url("img/bg.jpg") no-repeat top;
+	background: #9DEDF1 url('img/bg.jpg') no-repeat top;
 	background-size: cover;
 }
 
 #offer .container{
-	background: url(img/bg-avatar.png) no-repeat 50%;
+	background: url('img/bg-avatar.png') no-repeat 50%;
 	background-size: auto 65%;
 	background-position: bottom;
 	height: 100vh;
